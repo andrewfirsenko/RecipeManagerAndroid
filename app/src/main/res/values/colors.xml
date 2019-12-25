@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <color name="colorPrimary">#5D1049</color>
+    <color name="colorPrimaryDark">#4E0D3A</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorStatusBar">#4E0D3A</color>
+    <color name="colorActionbarBackground">#5D1049</color>
+    <color name="colorSpinner">#720D5D</color>
+    <color name="colorSpinnerTitle">#73FFFFFF</color>
+
+    <color name="colorBackground">#F7F5F5</color>
+    <color name="colorImageTitle">#000000</color>
+</resources>

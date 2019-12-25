@@ -1,0 +1,4 @@
+#Tue Dec 24 23:54:36 MSK 2019
+base.0=F\:\\ProgrammingAndroid\\RecipeManager\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

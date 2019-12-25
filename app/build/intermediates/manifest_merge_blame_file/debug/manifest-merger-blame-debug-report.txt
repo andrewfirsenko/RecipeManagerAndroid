@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.cutepool.recipemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:5:5-66
+11-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:7:5-34:19
+14        android:allowBackup="true"
+14-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\a83bef444c9240faa8e56c19819ce9ad\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme"
+21-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:14:9-40
+22        android:usesCleartextTraffic="true" >
+22-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:13:9-44
+23        <activity
+23-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:15:9-19:20
+24            android:name="ru.cutepool.recipemanager.RecipeListActivity"
+24-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:17:13-47
+25            android:parentActivityName="ru.cutepool.recipemanager.RecipeListActivity"
+25-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:18:13-61
+26            android:screenOrientation="portrait" >
+26-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:16:13-49
+27        </activity>
+28        <activity
+28-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:20:9-28:20
+29            android:name="ru.cutepool.recipemanager.MainActivity"
+29-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:23:13-41
+30            android:parentActivityName="ru.cutepool.recipemanager.MainActivity"
+30-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:22:13-55
+31            android:screenOrientation="portrait" >
+31-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:21:13-49
+32            <intent-filter>
+32-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:24:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:25:17-69
+33-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:26:17-77
+35-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:29:9-33:20
+39            android:name="ru.cutepool.recipemanager.RecipeActivity"
+39-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:32:13-43
+40            android:parentActivityName="ru.cutepool.recipemanager.RecipeActivity"
+40-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:31:13-57
+41            android:screenOrientation="portrait" >
+41-->F:\ProgrammingAndroid\RecipeManager\app\src\main\AndroidManifest.xml:30:13-49
+42        </activity>
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\94064be6316943264e15284092724adf\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\94064be6316943264e15284092724adf\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+46            android:authorities="ru.cutepool.recipemanager.lifecycle-process"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\94064be6316943264e15284092724adf\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+47            android:exported="false"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\94064be6316943264e15284092724adf\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+48            android:multiprocess="true" />
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Andy\.gradle\caches\transforms-2\files-2.1\94064be6316943264e15284092724adf\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+49    </application>
+50
+51</manifest>
